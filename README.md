@@ -1,4 +1,4 @@
-# Python_and_GoogleAnalytics_Challenge
+# Python and Google Analytics Challenge
 
 ### Data Analyst - Challenge
 
