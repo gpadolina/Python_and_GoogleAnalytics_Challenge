@@ -10,3 +10,6 @@ pageviews = pd.read_csv("/Users/--/Desktop/January 2019 pageviews.csv",
 pageviews.head()
 
 pageviews.info()
+
+pageviews['Day Index'] = pd.to_datetime(pageviews['Day Index'])
+pageviews.info()
