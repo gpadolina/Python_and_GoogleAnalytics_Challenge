@@ -17,3 +17,4 @@ pageviews.info()
 new_pageviews = pageviews.groupby([
   pd.Grouper(key='Day Index',
              freq='W-MON')])['Pageviews'].sum().reset_index().sort_values('Day Index')
+new_pageviews
