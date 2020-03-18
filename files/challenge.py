@@ -30,3 +30,14 @@ plt.ylabel('Day Index')
 plt.xticks(rotation=70)
 
 plt.savefig('pageviews.png')
+
+pageviews.plot(figsize=(15, 8),
+               x='Day Index',
+               y='Pageviews',
+               title='Pageviews by day',
+               legend=False)
+plt.ylabel('Pageviews')
+plt.xlabel('Day Index')
+plt.grid(True)
+
+plt.savefig('pageviews2.png')
