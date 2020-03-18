@@ -6,3 +6,7 @@ plt.style.use('classic')
 
 pageviews = pd.read_csv("/Users/--/Desktop/January 2019 pageviews.csv",
                         skiprows=5, sep=',', thousands=',', nrows=31)
+
+pageviews.head()
+
+pageviews.info()
