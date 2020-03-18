@@ -18,3 +18,15 @@ new_pageviews = pageviews.groupby([
   pd.Grouper(key='Day Index',
              freq='W-MON')])['Pageviews'].sum().reset_index().sort_values('Day Index')
 new_pageviews
+
+new_pageviews.plot(kind='barh',
+                   x='Day Index',
+                   y='Pageviews',
+                   figsize=(15, 8),
+                   title='Pageviews by week',
+                   legend=False)
+plt.xlabel('Pageviews')
+plt.ylabel('Day Index')
+plt.xticks(rotation=70)
+
+plt.savefig('pageviews.png')
