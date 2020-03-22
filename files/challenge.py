@@ -48,3 +48,7 @@ users = pd.read_csv("/Users/--/Desktop/January 2019 users.csv",
 users.head()
 
 users.info()
+
+users['Day Index'] = pd.to_datetime(users['Day Index'])
+
+users.info()
