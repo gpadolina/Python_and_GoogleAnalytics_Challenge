@@ -52,3 +52,9 @@ users.info()
 users['Day Index'] = pd.to_datetime(users['Day Index'])
 
 users.info()
+
+users.plot(figsize=(15, 8),
+           x='Day Index',
+           y='Users',
+           title='Users by day',
+           legend=False)
