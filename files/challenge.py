@@ -41,3 +41,10 @@ plt.xlabel('Day Index')
 plt.grid(True)
 
 plt.savefig('pageviews2.png')
+
+users = pd.read_csv("/Users/--/Desktop/January 2019 users.csv",
+                    skiprows=5, sep=',', thousands=',', nrows=31)
+
+users.head()
+
+users.info()
