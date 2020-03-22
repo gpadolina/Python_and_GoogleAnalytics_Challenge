@@ -58,3 +58,8 @@ users.plot(figsize=(15, 8),
            y='Users',
            title='Users by day',
            legend=False)
+plt.ylabel('Users')
+plt.xlabel('Day Index')
+plt.grid(True)
+
+plt.savefig('users.png')
