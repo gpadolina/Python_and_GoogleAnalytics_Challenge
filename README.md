@@ -103,3 +103,7 @@ plt.savefig('Pageviews by week.jpg')
 users = pd.read_csv("/Users/--/Desktop/January 2019 users.csv", skiprows=5, sep=',',
                     thousands=',', nrows=31)
 ```
+
+```
+users.head()
+```
