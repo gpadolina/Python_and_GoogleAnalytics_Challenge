@@ -29,3 +29,9 @@ pageviews = pd.read_csv("/Users/--/Deskptop/January 2019 pageviews.csv", skiprow
                         
 pageviews.head()
 ```
+| | Day Index | Pageviews |
+| 0 | 1/1/19 | 229 |
+| 1 | 1/2/19 | 521 |
+| 2 | 1/3/19 | 467 |
+| 3 | 1/4/19 | 572 |
+| 4 | 1/5/19 | 426 |
