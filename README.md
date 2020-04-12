@@ -115,3 +115,15 @@ users.head()
 | 2 | 1/3/19 | 82 |
 | 3 | 1/4/19 | 88 |
 | 4 | 1/5/19 | 50 |
+
+ ```
+ users.info()
+ 
+ <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 31 entries, 0 to 30
+Data columns (total 2 columns):
+Day Index    31 non-null object
+Users        31 non-null int64
+dtypes: int64(1), object(1)
+memory usage: 576.0+ bytes
+```
