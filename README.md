@@ -29,6 +29,7 @@ pageviews = pd.read_csv("/Users/--/Deskptop/January 2019 pageviews.csv", skiprow
                         
 pageviews.head()
 ```
+
 | | Day Index | Pageviews |
 | --- | --- | --- |
 | 0 | 1/1/19 | 229 |
@@ -36,3 +37,15 @@ pageviews.head()
 | 2 | 1/3/19 | 467 |
 | 3 | 1/4/19 | 572 |
 | 4 | 1/5/19 | 426 |
+
+```
+pageviews.info()
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 31 entries, 0 to 30
+Data columns (total 2 columns):
+Day Index    31 non-null object
+Pageviews    31 non-null int64
+dtypes: int64(1), object(1)
+memory usage: 576.0+ bytes
+```
