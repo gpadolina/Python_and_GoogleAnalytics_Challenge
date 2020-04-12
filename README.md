@@ -131,3 +131,15 @@ memory usage: 576.0+ bytes
 ```
 users['Day Index'] = pd.to_datetime(users['Day Index'])
 ```
+
+```
+users.info()
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 31 entries, 0 to 30
+Data columns (total 2 columns):
+Day Index    31 non-null datetime64[ns]
+Users        31 non-null int64
+dtypes: datetime64[ns](1), int64(1)
+memory usage: 576.0 bytes
+```
