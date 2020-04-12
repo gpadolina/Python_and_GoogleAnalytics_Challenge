@@ -107,3 +107,11 @@ users = pd.read_csv("/Users/--/Desktop/January 2019 users.csv", skiprows=5, sep=
 ```
 users.head()
 ```
+
+| | Day index | Users |
+| --- | --- | --- |
+| 0 | 1/1/19 | 38 |
+| 1 | 1/2/19 | 98 |
+| 2 | 1/3/19 | 82 |
+| 3 | 1/4/19 | 88 |
+| 4 | 1/5/19 | 50 |
