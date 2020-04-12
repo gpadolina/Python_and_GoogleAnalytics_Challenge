@@ -87,3 +87,12 @@ new_pageviews
 | 2 | 2019-01-21 | 3240 |
 | 3 | 2019-01-28 | 4109 |
 | 4 | 2019-02-04 | 2355 |
+
+```
+new_pageviews.plot(x='Day Index', y='Pageviews', figsize=(15,8),
+                   title="Pageviews by week", legend=False)
+plt.xlabel('Week')
+plt.ylabel('Day Index')
+
+plt.savefig('Pageviews by week.jpg')
+```
