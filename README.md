@@ -52,9 +52,13 @@ Day Index    31 non-null object
 Pageviews    31 non-null int64
 dtypes: int64(1), object(1)
 memory usage: 576.0+ bytes
+```
 
+```
 pageviews['Day Index'] = pd.to_datetime(pageviews['Day Index'])
+```
 
+```
 pageviews.info()
 
 <class 'pandas.core.frame.DataFrame'>
@@ -64,10 +68,14 @@ Day Index    31 non-null datetime64[ns]
 Pageviews    31 non-null int64
 dtypes: datetime64[ns](1), int64(1)
 memory usage: 576.0 bytes
+```
 
+```
 new_pageviews = pageviews.groupby([
       pd.Grouper(key='Day Index',
                  freq='W-MON')])['Pageviews'].sum().reset_index().sort_values('Day Index')
-                 
+```
+
+```
 new_pageviews
 ```
