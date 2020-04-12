@@ -97,7 +97,7 @@ plt.ylabel('Day Index')
 plt.savefig('Pageviews by week.jpg')
 ```
 
-![Pageviews by week]
+![Pageviews by week](https://github.com/gpadolina/pythonAndGoogleAnalyticsChallenge/blob/master/files/Pageviews%20by%20week.jpg)
 
 ```
 users = pd.read_csv("/Users/--/Desktop/January 2019 users.csv", skiprows=5, sep=',',
