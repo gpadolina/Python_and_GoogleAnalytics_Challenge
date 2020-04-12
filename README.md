@@ -96,3 +96,5 @@ plt.ylabel('Day Index')
 
 plt.savefig('Pageviews by week.jpg')
 ```
+
+![Pageviews by week](https://github.com/gpadolina/pythonAndGoogleAnalyticsChallenge/blob/master/files/Pageviews%20by%20week.jpg)
