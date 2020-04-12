@@ -143,3 +143,14 @@ Users        31 non-null int64
 dtypes: datetime64[ns](1), int64(1)
 memory usage: 576.0 bytes
 ```
+
+```
+users.plot(figsize=(15,8),
+           x='Day Index',
+           y='Users',
+           title='Users by day')
+plt.ylabel('Number of pageviews/users')
+plt.xlabel('Date')
+
+plt.savefig("Pageviews/users per day.jpg")
+```
