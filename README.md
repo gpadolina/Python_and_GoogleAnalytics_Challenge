@@ -154,3 +154,5 @@ plt.xlabel('Date')
 
 plt.savefig("Pageviews/users per day.jpg")
 ```
+
+![Image of Pageviews/users per day](https://github.com/gpadolina/pythonAndGoogleAnalyticsChallenge/blob/master/files/Pageviews:users%20by%20day.jpg)
