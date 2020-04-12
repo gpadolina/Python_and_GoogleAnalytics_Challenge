@@ -127,3 +127,7 @@ Users        31 non-null int64
 dtypes: int64(1), object(1)
 memory usage: 576.0+ bytes
 ```
+
+```
+users['Day Index'] = pd.to_datetime(users['Day Index'])
+```
