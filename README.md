@@ -16,3 +16,11 @@ Exercise:
 Requirements:
   1. All code must be written in Python and must be in a Jupyter notebook
   2. Charts must be embedded in the Jupyter notebook
+
+```
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+plt.style.use('classic')
+```
